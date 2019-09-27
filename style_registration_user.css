@@ -36,3 +36,8 @@ body
 .registration_button button {
 	margin-left: 80px;
 }
+
+.agree_checkbox {
+	width: 165px;
+	overflow-wrap: break-word;
+}
