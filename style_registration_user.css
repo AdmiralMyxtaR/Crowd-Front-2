@@ -1,24 +1,20 @@
-body
-{
+body {
 	background-color:#333
 }
 
-.container
-{
+.container {
 	margin: 10% 10%;
 	background-color: magenta;
 	width: 80%;
 }
 
-.user_img
-{
+.user_img {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
 }
 
-.registration_form input
-{
+.registration_form input {
 	margin-left: 180px;	
 }
 
@@ -26,13 +22,11 @@ body
 	text-align: center;
 }
 
-.registration_form label
-{
+.registration_form label {
 	position: absolute;
 }
 
-.registration_button label`
-{
+.registration_button label`{
 	position: absolute;
 }
 
