@@ -1,0 +1,18 @@
+body {
+	background-color:#333
+}
+
+.container {
+	margin: 10% 10%;
+	background-color: magenta;
+	width: 80%;
+	text-align: center;
+}
+
+.login_form label {
+	position: absolute;
+}
+
+.login_form input {
+	margin-left: 60px;
+}

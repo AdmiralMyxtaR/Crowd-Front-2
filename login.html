@@ -6,8 +6,17 @@
 </head>
 
 <body>
-	<div class="login_form">
-		<label>E-Mail: </label><input type="text" name="email"><p>
-		<label>Пароль: </label><input type="password" name="password"><p>
-	</div>
+	<div class="container">
+			<form name="login_form" method="post" action="loginUser"> <!-- Добавить ACTION!!! -->
+			
+				<div class="login_form">
+					<label>E-Mail: </label><input type="text" name="email"><p>
+					<label>Пароль: </label><input type="password" name="password"><p>
+				</div>
+				
+				<div class="registration_button" style="display: inline-block;">
+					<button type="submit">Вход</button> <!-- Добавить действия -->
+				</div>
+			</form>
+		</div>
 </body>
