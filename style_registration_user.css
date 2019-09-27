@@ -22,6 +22,10 @@ body
 	margin-left: 180px;	
 }
 
+.registration_form_container {
+	text-align: center;
+}
+
 .registration_form label
 {
 	position: absolute;

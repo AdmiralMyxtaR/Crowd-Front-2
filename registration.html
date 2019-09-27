@@ -10,24 +10,25 @@
 		<img src="registration_user_icon.png" class="user_img"></img>
 		<p>
 		
-		<form name="registration_user_data" method="post" action="registerUser"> <!-- Добавить ACTION!!! -->
-		
-			<div class="registration_form">
-				<label>Фамилия:</label><input type="text" name="first_name"><p>
-				<label>Имя: </label><input type="text" name="second_name"><p>
-				<label>E-Mail: </label><input type="text" name="email"><p>
-				<label>Пароль: </label><input type="password" name="password"><p>
-				<label>Подтверждение пароля: </label><input type="password" name="password_confirmation"><p>
-			</div>
+		<div class="registration_form_container">
+			<form name="registration_user_data" method="post" action="registerUser"> <!-- Добавить ACTION!!! -->
 			
-			<div class="agree_checkbox" style="display: inline-block;">
-				<input type="checkbox" name="agree">Соглашаюсь с dsgfsgdfgdfgdfgdfgddfsdgshsdgdssdfsdsdsdsad ...</input>
-			</div>
-			
-			<div class="registration_button" style="display: inline-block;">
-				<button type="submit">Зарегистрироваться</button> <!-- Добавить действия -->
-			</div>
-		</form>
-		
+				<div class="registration_form">
+					<label>Фамилия:</label><input type="text" name="first_name"><p>
+					<label>Имя: </label><input type="text" name="second_name"><p>
+					<label>E-Mail: </label><input type="text" name="email"><p>
+					<label>Пароль: </label><input type="password" name="password"><p>
+					<label>Подтверждение пароля: </label><input type="password" name="password_confirmation"><p>
+				</div>
+				
+				<div class="agree_checkbox" style="display: inline-block;">
+					<input type="checkbox" name="agree">Соглашаюсь с dsgfsgdfgdfgdfgdfgddfsdgshsdgdssdfsdsdsdsad ...</input>
+				</div>
+				
+				<div class="registration_button" style="display: inline-block;">
+					<button type="submit">Зарегистрироваться</button> <!-- Добавить действия -->
+				</div>
+			</form>
+		</div>
 	</div>
 </body>
