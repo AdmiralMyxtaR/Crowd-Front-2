@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Регистрация пользователя</title>
+	<link rel="stylesheet" type="text/css" href="style_registration_user.css">
+</head>
+
+<body>
+	<div class="container">
+		<img src="registration_user_icon.png" class="user_img"></img>
+		<p>
+		
+		<form name="registration_user_data" method="post" action=""> <!-- Добавить ACTION!!! -->
+		
+			<div class="registration_form">
+			<label>Фамилия:</label><input type="text" name="first_name"><p>
+			<label>Имя: </label><input type="text" name="second_name"><p>
+			<label>E-Mail: </label><input type="text" name="email"><p>
+			<label>Пароль: </label><input type="password" name="password"><p> <!-- сделать точки вместо букв -->
+			<label>Подтверждение пароля: </label><input type="password" name="password_confirmation"><p> <!--и тут-->
+			</div>
+			
+			<input type="checkbox">Соглашась с ...</input>
+			
+			<div class="registration_button" style="display: inline-block;">
+				<button class="registration_button">Зарегистрироваться</button> <!-- Добавить действия -->
+			</div>
+		</form>
+		
+	</div>
+</body>

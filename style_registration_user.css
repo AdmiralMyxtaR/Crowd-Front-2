@@ -1,0 +1,38 @@
+body
+{
+	background-color:#333
+}
+
+.container
+{
+	margin: 10% 10%;
+	background-color: magenta;
+	width: 80%;
+}
+
+.user_img
+{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	//width: 50%;
+}
+
+.registration_form input
+{
+	margin-left: 180px;	
+}
+
+.registration_form label
+{
+	position: absolute;
+}
+
+.registration_button label`
+{
+	position: absolute;
+}
+
+.registration_button button {
+	margin-left: 80px;
+}
