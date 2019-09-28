@@ -4,12 +4,14 @@ body {
 
 .logo_container {
 	text-align:center;
+	margin-right: 5%;
 }
 
 .container {
-	margin: 10% 10%;
+	margin: 5% 10%;
 	background-color: magenta;
 	width: 80%;
+	padding-bottom: 5%;
 }
 
 .user_img_container {
